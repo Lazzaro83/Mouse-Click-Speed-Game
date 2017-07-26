@@ -1,0 +1,35 @@
+
+body{
+  background: yellow;
+}
+.wraper{
+  width:95vw;
+  height: 95vh;
+  position: absolute;
+}
+.ball{
+  height:70px;
+  width:70px;
+  position:relative;
+  left:5px;
+  background: radial-gradient(ellipse at center, #ffffff 0%,#000000 100%);
+  border-radius: 50%;
+  transition: left .5s cubic-bezier(.42,-0.3,.78,1.25), 
+              top .5s cubic-bezier(.42,-0.3,.78,1.25);
+}
+
+.food{
+  width:20px;
+  height: 20px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position:absolute;
+  cursor:pointer;
+}
+.points{
+  position: absolute;
+  top: 5px;
+  right: 35px;
+  font-size: x-large;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
